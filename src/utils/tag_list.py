@@ -13,7 +13,3 @@ class TagList(Enum):
     @staticmethod
     def list_keys():
         return [tag.name for tag in TagList]
-
-    @staticmethod
-    def is_valid(tag):
-        return tag in TagList.list()
